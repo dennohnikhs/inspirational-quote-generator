@@ -1,0 +1,15 @@
+/* fonts download */
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+/* global styles */
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
