@@ -6,7 +6,8 @@ import { BackgroundImage1, BackgroundImage2, FooterCon, FooterLink, GenerateQuot
 import cloud from "../assets/clouds.png"
 import raining from "../assets/rain.png"
 import { useState } from 'react'
-import '../styles/global.css'
+// import '../styles/global.css'
+import "./api/_app"
 
 export default function (){
     const [numberOfQuotes,setNumberOfQuotes] = useState(0)
@@ -35,7 +36,7 @@ export default function (){
                  <>
              Quotes Generated:{numberOfQuotes}
              <br />
-             Developed with  <RedSpan>❤️</RedSpan> by <FooterLink href="https://my-portfolio-nyglpxitl-davidsonlangat316-gmailcom.vercel.app/"
+             Developed with  <RedSpan>❤️</RedSpan> by <FooterLink href="https://my-portfolio-hif6icsrf-davidsonlangat316-gmailcom.vercel.app/"
              target="_blank" rel="noopener noreferrer"> @LangatDenis"
              </FooterLink> 
              </>
