@@ -8,9 +8,27 @@ import raining from "../assets/rain.png"
 import { useState } from 'react'
 // import '../styles/global.css'
 import "./api/_app"
+import { updateQuoteAppData } from '@/src/graphql/mutations'
+//interface for our Dynamo Db object
 
+interface UpdateQuoteInfoData{
+    id: string
+  queryName: string
+  quotesGenerated: number
+  createdAt: string
+  updatedAt: string
+}
+//type guard for our fetch function
 export default function (){
     const [numberOfQuotes,setNumberOfQuotes] = useState(0)
+    //function to fetch our DynamoDb Object (quotes generated)
+    const updateQuoteInfo = async () =>{
+        try{
+            
+        }catch (error){
+            console.log("error getting quote data",error)
+        }
+    }
     return(
         <> 
         <Head>
